@@ -1,0 +1,32 @@
+{
+    "namespace": "dev.basri",
+    "type": "record",
+    "name": "people",
+    "fields": [
+        {
+            "name": "name",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "surname",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "birthYear",
+            "type": "int"
+        },
+        {
+            "name": "country",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    ]
+}
